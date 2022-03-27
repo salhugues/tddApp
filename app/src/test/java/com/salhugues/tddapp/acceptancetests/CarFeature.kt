@@ -6,7 +6,7 @@ import org.junit.Test
 
 class CarFeature {
 
-    val car = Car(6.0)
+    private val car = Car(6.0)
 
     @Test
     fun `Car loosing fuel when it turned on`() {

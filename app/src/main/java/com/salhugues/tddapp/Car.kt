@@ -3,5 +3,7 @@ package com.salhugues.tddapp
 class Car(
     var fuel: Double
 ) {
-    fun turnOn() { }
+    fun turnOn() {
+        fuel -= 0.5
+    }
 }
