@@ -6,6 +6,7 @@ class Engine(
     var temperature: Int,
     var isTurnedOn: Boolean
 ) {
+
     fun turnOn() {
         isTurnedOn = true
         temperature = 95
